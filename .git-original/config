@@ -1,0 +1,35 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:mean-stack-apprentices/full-stack.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	github-pr-owner-number = "mean-stack-apprentices#full-stack#19"
+[branch "gsa-1-express-app"]
+	remote = origin
+	merge = refs/heads/gsa-1-express-app
+[branch "amn-21-feature-add-angular"]
+	remote = origin
+	merge = refs/heads/amn-21-feature-add-angular
+[branch "LT-30-mangoose"]
+	remote = origin
+	merge = refs/heads/LT-30-mangoose
+[branch "amn-30-add-mongoose"]
+	remote = origin
+	merge = refs/heads/amn-30-add-mongoose
+[branch "vcf-30-add-mongoose"]
+	remote = origin
+	merge = refs/heads/vcf-30-add-mongoose
+[branch "bjj-30-add-mongoose"]
+	remote = origin
+	merge = refs/heads/bjj-30-add-mongoose
+[branch "bjj-21-add-angular"]
+	remote = origin
+	merge = refs/heads/bjj-21-add-angular
